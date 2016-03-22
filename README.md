@@ -18,7 +18,6 @@ Public class Class1
                 private String str1;
                 private int int1;
         }
-           
 }
 
 Under development...
