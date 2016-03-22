@@ -1,0 +1,113 @@
+Language model created by QuickLM on Mon Nov  9 12:22:35 EST 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 18 sentences and 23 words
+
+\data\
+ngram 1=23
+ngram 2=39
+ngram 3=28
+
+\1-grams:
+-0.8846 </s> -0.3010
+-0.8846 <s> -0.2367
+-1.3617 A -0.2817
+-2.1399 AN -0.2979
+-2.1399 ANOTHER -0.2403
+-2.1399 BUILD -0.2817
+-1.8388 CLAASS -0.2403
+-1.8388 CLASS -0.2403
+-2.1399 CLOSE -0.2403
+-2.1399 CONDISHNAL -0.2403
+-2.1399 CONDITIONAL -0.2403
+-2.1399 CONSTRUCTOR -0.2403
+-1.3617 CREATE -0.2784
+-2.1399 EENTEGER -0.2403
+-2.1399 FUNCTION -0.2403
+-2.1399 HELLO -0.2403
+-2.1399 INTEGER -0.2403
+-2.1399 NEW -0.2947
+-2.1399 QUEET -0.2403
+-2.1399 QUIT -0.2403
+-2.1399 SAVE -0.2403
+-2.1399 STREENG -0.2403
+-2.1399 STRING -0.2403
+
+\2-grams:
+-1.5563 <s> ANOTHER 0.0000
+-1.5563 <s> BUILD 0.0000
+-1.5563 <s> CLAASS 0.0000
+-1.5563 <s> CLOSE 0.0000
+-1.5563 <s> CONDISHNAL 0.0000
+-0.7782 <s> CREATE 0.0000
+-1.5563 <s> EENTEGER 0.0000
+-1.5563 <s> HELLO 0.0000
+-1.5563 <s> NEW 0.0000
+-1.5563 <s> QUEET 0.0000
+-1.5563 <s> QUIT 0.0000
+-1.5563 <s> SAVE 0.0000
+-1.5563 <s> STREENG 0.0000
+-0.7782 A CLASS 0.0000
+-1.0792 A CONDITIONAL 0.0000
+-1.0792 A CONSTRUCTOR 0.0000
+-1.0792 A FUNCTION 0.0000
+-1.0792 A STRING 0.0000
+-0.3010 AN INTEGER 0.0000
+-0.3010 ANOTHER </s> -0.3010
+-0.3010 BUILD A -0.2218
+-0.3010 CLAASS </s> -0.3010
+-0.3010 CLASS </s> -0.3010
+-0.3010 CLOSE </s> -0.3010
+-0.3010 CONDISHNAL </s> -0.3010
+-0.3010 CONDITIONAL </s> -0.3010
+-0.3010 CONSTRUCTOR </s> -0.3010
+-0.3802 CREATE A 0.0000
+-1.0792 CREATE AN 0.0000
+-0.3010 EENTEGER </s> -0.3010
+-0.3010 FUNCTION </s> -0.3010
+-0.3010 HELLO </s> -0.3010
+-0.3010 INTEGER </s> -0.3010
+-0.3010 NEW CLAASS 0.0000
+-0.3010 QUEET </s> -0.3010
+-0.3010 QUIT </s> -0.3010
+-0.3010 SAVE </s> -0.3010
+-0.3010 STREENG </s> -0.3010
+-0.3010 STRING </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ANOTHER </s>
+-0.3010 <s> BUILD A
+-0.3010 <s> CLAASS </s>
+-0.3010 <s> CLOSE </s>
+-0.3010 <s> CONDISHNAL </s>
+-0.3802 <s> CREATE A
+-1.0792 <s> CREATE AN
+-0.3010 <s> EENTEGER </s>
+-0.3010 <s> HELLO </s>
+-0.3010 <s> NEW CLAASS
+-0.3010 <s> QUEET </s>
+-0.3010 <s> QUIT </s>
+-0.3010 <s> SAVE </s>
+-0.3010 <s> STREENG </s>
+-0.3010 A CLASS </s>
+-0.3010 A CONDITIONAL </s>
+-0.3010 A CONSTRUCTOR </s>
+-0.3010 A FUNCTION </s>
+-0.3010 A STRING </s>
+-0.3010 AN INTEGER </s>
+-0.3010 BUILD A CLASS
+-1.0000 CREATE A CLASS
+-1.0000 CREATE A CONDITIONAL
+-1.0000 CREATE A CONSTRUCTOR
+-1.0000 CREATE A FUNCTION
+-1.0000 CREATE A STRING
+-0.3010 CREATE AN INTEGER
+-0.3010 NEW CLAASS </s>
+
+\end\

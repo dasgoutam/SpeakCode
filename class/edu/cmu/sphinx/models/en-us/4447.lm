@@ -1,0 +1,71 @@
+Language model created by QuickLM on Sun Nov  1 01:33:26 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=19
+ngram 3=15
+
+\1-grams:
+-1.0607 </s> -0.3010
+-1.0607 <s> -0.2403
+-1.6628 BACK -0.2817
+-1.6628 BASIC -0.2915
+-1.6628 CAKE -0.2615
+-1.3617 FOR -0.2615
+-1.6628 FUTURE -0.2615
+-1.6628 HUMANS -0.2615
+-1.6628 INTO -0.2915
+-1.6628 IS -0.2717
+-1.1856 LESS -0.2403
+-1.6628 LOOK -0.2915
+-1.6628 THE -0.2915
+-1.6628 TOOLS -0.2817
+
+\2-grams:
+-0.9031 <s> BACK 0.0000
+-0.9031 <s> BASIC 0.0000
+-0.9031 <s> LESS -0.2218
+-0.9031 <s> LOOK 0.0000
+-0.3010 BACK FOR -0.1761
+-0.3010 BASIC TOOLS 0.0000
+-0.3010 CAKE </s> -0.3010
+-0.6021 FOR HUMANS 0.0000
+-0.6021 FOR LESS -0.2218
+-0.3010 FUTURE </s> -0.3010
+-0.3010 HUMANS </s> -0.3010
+-0.3010 INTO THE 0.0000
+-0.3010 IS LESS -0.2218
+-0.7782 LESS </s> -0.3010
+-0.7782 LESS CAKE 0.0000
+-0.7782 LESS IS 0.0000
+-0.3010 LOOK INTO 0.0000
+-0.3010 THE FUTURE 0.0000
+-0.3010 TOOLS FOR -0.1761
+
+\3-grams:
+-0.3010 <s> BACK FOR
+-0.3010 <s> BASIC TOOLS
+-0.3010 <s> LESS IS
+-0.3010 <s> LOOK INTO
+-0.3010 BACK FOR LESS
+-0.3010 BASIC TOOLS FOR
+-0.3010 FOR HUMANS </s>
+-0.3010 FOR LESS CAKE
+-0.3010 INTO THE FUTURE
+-0.3010 IS LESS </s>
+-0.3010 LESS CAKE </s>
+-0.3010 LESS IS LESS
+-0.3010 LOOK INTO THE
+-0.3010 THE FUTURE </s>
+-0.3010 TOOLS FOR HUMANS
+
+\end\
