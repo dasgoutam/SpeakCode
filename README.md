@@ -1,7 +1,7 @@
 ## SpeakCode
 A speech recognizer written in Java based on Sphinx4 library.
 
-# Code Example
+## Code Example
 
 The user "tells" the program what they want for their program like:<br>
 (Sequence of instructions)<br>
@@ -23,9 +23,3 @@ And the resultant output would be-<br>
 }<br>
 
 <br><br>Under development...
-
-
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
