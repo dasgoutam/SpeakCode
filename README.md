@@ -15,11 +15,11 @@ The user "tells" the program what they want for their program like:<br>
 And the resultant output would be-<br>
 <br>Public class Class1<br>
 {<br>
-	public static void main(String args[])<br>
-        {<br>
-                private String str1;<br>
-                private int int1;<br>
-        }<br>
+&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String args[])<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private String str1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private int int1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
 }<br>
 
 <br><br>Under development...
