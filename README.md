@@ -1,23 +1,31 @@
-# SpeakCode
+## SpeakCode
 A speech recognizer written in Java based on Sphinx4 library.
 
-Example - The user "tells" the program what they want for their program like:
-Sequence of instructions
-1. Create a new public class
-2. create a main function
-3. new string
-4. new integer
-5. close function
-6. end
+# Code Example
 
-And the resultant output would be-
-Public class Class1
-{
-        public static void main(String args[])
-        {
-                private String str1;
-                private int int1;
-        }
-}
+The user "tells" the program what they want for their program like:<br>
+(Sequence of instructions)<br>
+1. Create a new public class<br>
+2. create a main function<br>
+3. new string<br>
+4. new integer<br>
+5. close function<br>
+6. end<br>
 
-Under development...
+And the resultant output would be-<br>
+<br>Public class Class1<br>
+{<br>
+	public static void main(String args[])<br>
+        {<br>
+                private String str1;<br>
+                private int int1;<br>
+        }<br>
+}<br>
+
+<br><br>Under development...
+
+
+## Code Example
+
+Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+
